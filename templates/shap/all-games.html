@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='/css/style.css')}}">
+    <title>All Games Of JSON</title>
+</head>
+<body>
+    <h1>All Games Of JSON</h1>
+    <div id="p1">
+        <div id="q1">
+            <table>
+                <!-- <tr><th>All Games Of JSON</th></tr> -->
+                {%for i in listgames%}
+                <tr><td class="w1">{{i}}</td></tr>
+                {%endfor%}
+            </table>
+        </div>
+        <div id="q2">
+            <table>
+                {%for j in posterslist%}
+                <tr><td class="w1"><img src="{{j}}" alt=""></td></tr>
+                {%endfor%}
+            </table>
+        </div>
+    </div>
+</body>
+</html>

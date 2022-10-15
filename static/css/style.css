@@ -1,0 +1,47 @@
+p
+{
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: green;
+}
+table
+{
+    border: 2px solid grey;
+    font-size: 20px;
+    text-align: center;
+}
+tr
+{
+    border: 2px solid grey;
+}
+th
+{
+    border: 2px solid grey;
+    font-size: 32px;
+}
+td
+{
+    border: 2px solid grey;
+}
+.g1
+{
+    width: 500px;
+}
+#p1
+{
+    display: flex;
+}
+#q1
+{
+    display: flex;
+}
+#q2
+{
+    display: flex;
+}
+.w1
+{
+    height: 200px;
+}
